@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Poppins:400,500,700");
+
+.centralize-wrapper {
+    width: 100%;
+    padding: 0;
+    display: table;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: #f0f0f0 !important;
+}
+.make-account{
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+div.centralize-inner {
+    padding: 0;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0;
+}
+
+div.centralize-content {
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.laraframe-login {
+    background-color: #fff;
+    padding: 25px 132px 30px;
+}
+
+.laraframe-form .input-group{
+    margin-bottom: 10px;
+}
+
+.laraframe-form input:focus {
+    box-shadow: none;
+    background: #e6e6e6;
+}
+
+.laraframe-form .input-group-text,
+.laraframe-form input[type="text"],
+.laraframe-form input[type="password"],
+.laraframe-form input[type="email"] {
+    background: #e6e6e6;
+    border: none !important;
+    height: 50px;
+    font-size: 15px;
+    color: #666;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.laraframe-form input[type="text"],
+.laraframe-form input[type="password"],
+.laraframe-form input[type="email"] {
+    transition: all 0.3s ease;
+    padding-left: 5px;
+}
+
+.laraframe-form button {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    height: 50px;
+    margin-top: 20px;
+    transition: all 0.6s ease;
+}
+
+.laraframe-form a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #999;
+    font-size: 13px;
+}
+
+.invalid-feedback {
+    color: red;
+    display: block;
+    font-size: 13px;
+}
+
+.flash-message{
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index: 999999999999;
+    background: rgba(0,20,15, 0.8);
+    display: none;
+    top: 0;
+    left: 0;
+}
+.flash-message.flash-message-active{
+    display: block;
+}
+.flash-close.close{
+    position: absolute;
+    right:10px;
+    top:10px;
+    color:#fff;
+    z-index: 999;
+}
+.flash-removable{
+    position:relative;
+}
+.close.flash-close {
+    z-index: 9999999;
+    color: #000;
+    top: -18px;
+    right: 2px;
+}
+.flash-icon {
+    display: table;
+    margin: 0 auto 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 62px;
+    background: #fff;
+}
+.flash-message .centralize-content{
+    padding:30px 15px;
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);
+    display: none;
+    max-width:460px;
+}
+.flash-message .centralize-content p {
+    font-size: 18px;
+}
+.flash-message .centralize-content.flash-success{
+    color: #0b0;
+    display: block;
+}
+.flash-message .centralize-content.flash-success .flash-icon{
+    border: 4px solid #00bb00;
+}
+.flash-message .centralize-content.flash-success .flash-icon::before{
+    content: '\f00c';
+    font-family: FontAwesome;
+}
+
+.flash-message .centralize-content.flash-error{
+    color: #f00;
+    display: block;
+}
+.flash-message .centralize-content.flash-error .flash-icon{
+    border: 4px solid #f00;
+}
+.flash-message .centralize-content.flash-error .flash-icon::before{
+    content: '\f00d';
+    font-family: FontAwesome;
+}
+
+.flash-message .centralize-content.flash-warning{
+    color: #f80;
+    display: block;
+}
+.flash-message .centralize-content.flash-warning .flash-icon{
+    border: 4px solid #f80;
+}
+.flash-message .centralize-content.flash-warning .flash-icon::before{
+    content: '\f071';
+    font-family: FontAwesome;
+}
+
+.flash-message .centralize-content.flash-confirmation{
+    color: #2379a1;
+    display: block;
+}
+.flash-message .centralize-content.flash-confirmation .flash-icon{
+    border: 4px solid #2379a1;
+}
+.flash-message .centralize-content.flash-confirmation .flash-icon::before{
+    content: '\f128';
+    font-family: FontAwesome;
+}
+.hidden-flash-item{
+    display: none;
+}
+.flash-message .centralize-content.flash-confirmation .hidden-flash-item{
+    display: initial;
+}
+
+.g-recaptcha {
+    transform: scale(0.96);
+    transform-origin: 0 0;
+
+}
+.logo-headerless{
+    padding: 0 20px;
+}
+
+.checkbox > div{
+    top: -2px;
+}
+@media all and (max-width: 767px){
+    .laraframe-login {
+        padding: 50px 70px 30px;
+    }
+    .logo-headerless{
+        padding: 0 160px;
+    }
+}
+@media all and (max-width: 575px){
+    .laraframe-login {
+        padding: 50px 15px 30px;
+    }
+    .logo-headerless{
+        padding: 0 100px;
+    }
+}

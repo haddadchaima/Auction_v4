@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/language.js": "/js/language.js",
+    "/js/role_manager.min.js": "/js/role_manager.min.js",
+    "/js/custom.min.js": "/js/custom.min.js",
+    "/js/cvalidator.min.js": "/js/cvalidator.min.js",
+    "/css/custom.min.css": "/css/custom.min.css",
+    "/css/menu.min.css": "/css/menu.min.css"
+}

@@ -1,0 +1,105 @@
+.wi-120 {
+    width: 120px !important;
+}
+.wi-100 {
+    width: 100px !important;
+}
+
+.wi-200 {
+    width: 200px !important;
+}
+
+.hi-180 {
+    height: 180px !important;
+}
+
+.hi-80 {
+    height: 80px !important;
+}
+
+.fixer img {
+    opacity: .8;
+}
+
+.fixer-list-style-none {
+    list-style: none !important;
+}
+
+.m-hi-300 {
+    max-height: 300px;
+}
+
+.fixer-salesChart {
+    height: 192px;
+    width: 658px;
+}
+
+.width-80-percent {
+    width: 80% !important;
+}
+.width-75-percent {
+    width: 75% !important;
+}
+.width-60-percent {
+    width: 60% !important;
+}
+.width-50-percent {
+    width: 50% !important;
+}
+
+.fixer-lang-img {
+    max-width: 120px;
+    max-height: 80px;
+    line-height: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.nav-fixer {
+    margin: -21px -21px 13px;
+    border-bottom: 1px solid #ced4da;
+    padding:10px;
+}
+
+.nav-input-fixer {
+    box-shadow: none !important;
+    padding: 5px 8px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.scroller-fixer {
+    overflow-y: scroll;
+    max-height: 150px;
+    margin:0 -1rem
+}
+
+.checkbox-label {
+    margin:1px 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.flex-3 {
+    flex:3;
+}
+
+.flex-5{
+    flex: 5;
+}
+
+.mr-1-percent {
+    margin-right: 1% ;
+}
+
+.p-b-100 {
+    padding-bottom: 100px;
+}
+
+.fixer-white-space{
+    white-space: pre-wrap;
+}

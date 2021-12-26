@@ -1,0 +1,101 @@
+.address-dropdown {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.bg-info {
+    background-color: #efefef !important;
+    color: #444 !important;
+}
+
+.cm-data-table thead .bg-info {
+    background-color: #efefef !important;
+    color: #444 !important;
+}
+
+.card-footer {
+    border-top: 1px solid rgba(187, 187, 187, 0.13) !important;
+}
+
+.cm-data-table tbody td {
+    padding: 15px 20px !important;
+    border-bottom: 1px solid #eee !important;
+    color: #666;
+}
+
+.card-header {
+    border-bottom: 1px solid #eee;
+    padding: 30px 20px;
+}
+
+.cm-data-table tbody tr.even {
+    background: none;
+}
+
+.cm-data-table tbody td {
+    padding: 15px 20px !important;
+    border-bottom: 1px solid #f4f4f5 !important;
+    color: #666;
+}
+
+.cm-data-table.dtr-inline.collapsed > tbody > tr > th:first-child::before,
+.cm-data-table.dtr-inline.collapsed > tbody > tr > td:first-child::before {
+    border: 3px solid white !important;
+    line-height: 15px !important;
+    border-radius: 3px !important;
+    background-color: #c4c4c4 !important;
+    top: 50%;
+    left: 0;
+    height: 13px;
+    width: 13px;
+}
+
+.cm-data-table.dtr-inline.collapsed > tbody > tr > td.child ul li {
+    display: inline-block;
+    padding: 3px 10px 5px;
+    background: #efefef;
+}
+
+.transaction-list a {
+    color: #999;
+    transition: all ease .3s;
+}
+
+.child ul li {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.st-bg {
+    background: #17a2b8;
+    color: #fff !important;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.transaction-list:hover a {
+    transform: scale(1.03);
+}
+
+.transaction-list .active {
+    background: #e83f53;
+    color: #fff !important;
+    font-weight: bold;
+    border: 1px solid #e83f53 !important;
+    box-shadow: 0 0 30px 1px rgba(234, 71, 71, 0.21);
+}
+
+.transaction-list .active:hover {
+    color: #fff !important;
+}
+
+.cm-filter-container .btn-info {
+    color: #fff;
+    background-color: #e83f53 !important;
+    border-color: #e83f53 !important;
+}
+
+.cm-filter-wrapper h6 {
+    margin-bottom: 15px;
+}

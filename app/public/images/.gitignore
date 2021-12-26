@@ -1,0 +1,16 @@
+*
+!.gitignore
+!_company_logo_.png
+!_company_logo_dashboard_.png
+!_favicon_.png
+
+!users/
+!languages/
+!auction_image/
+!currency_logo/
+!dispute_image/
+!know_your_customer_images/
+!payment_method_logo/
+!seller_profile_images/
+!slider_images/
+
